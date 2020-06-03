@@ -1,5 +1,5 @@
 # TypeScript_lesson
-learn typeScript
-# learn typescript again.
+重新学习 TypeScript，加油！
 
-lesson 1: hello world!
+## lesson1
+typescript 的安装，配置 vscode 的自动编译 ts 文件。
