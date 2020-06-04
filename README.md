@@ -5,7 +5,7 @@
 typescript 的安装，配置 vscode 的自动编译 ts 文件。
 
 ## lesson02
-typescript 的数据类型
+typescript 的数据类型  
     布尔类型（boolean）  
     数字类型（number）  
     字符串类型（string）  
