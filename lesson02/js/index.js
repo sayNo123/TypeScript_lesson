@@ -61,3 +61,40 @@ var c1 = Color1.blue;
 var c2 = Color1.orange;
 console.log(c1); // 5
 console.log(c2); // 6
+// 任意类型（any）
+var num = 123;
+num = "str";
+num = true;
+/*
+any 类型的用法 例如：
+给id为box的元素设置颜色为红色，如果不指定类型，ts会报错，指定类型为any，则不会报错
+*/
+var obox = document.getElementById('box');
+obox.style.color = "red";
+// undefined 类型
+var thisNum;
+console.log(num); // 定义变量未赋值，应该是undefined，此时为true
+var thisNum1;
+console.log(thisNum1);
+// null 类型
+var thatNum;
+thatNum = null;
+console.log(thatNum);
+// vold 类型：typescript中的void表示没有任何类型，一般用于定义方法的时候，方法没有返回值
+// ES5
+// function run() {
+//   console.log("run");
+// }
+// run();
+// function run(): void {
+//   console.log("run");
+// }
+// run();
+/*
+  声明的类型既不是“void”也不是“any”的函数必须返回一个值。
+*/
+function run() {
+    var aaa = 1;
+    return aaa;
+}
+console.log(run());
