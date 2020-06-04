@@ -12,3 +12,7 @@ typescript 的数据类型
     数组类型（array）
     元组类型（tuple）
     枚举类型（enum）
+    any类型（any）
+    undefined类型（undefined）
+    null类型（null）
+    void类型（void）
